@@ -1,0 +1,23 @@
+.headerContainer {
+  background: #1e89eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 117px;
+  width: 1440;
+  
+}
+
+.myBlogText {
+    font-size: 36px;
+    color: #FFFFFF;
+    padding: 36px 0 37px 38px;
+  
+}
+
+.userText {
+    font-size: 32px;
+    color: #FFFFFF;
+    padding: 41px 49px 37px 0;
+  
+}

@@ -1,0 +1,29 @@
+.addNewPostContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recentPostText {
+  font-size: 36px;
+  color: #000000;
+  margin: 40px 0 0 38px;
+}
+
+.addPostBtn{
+  font-size: 28px;
+  margin: 46px 86px 0 0;
+  padding: 9px 26px 8px 13px;
+  background: #1e89eb;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.285);
+  border-radius: 5px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.addPostBtn:hover{
+  background: #3f9bf1;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+  
+}
