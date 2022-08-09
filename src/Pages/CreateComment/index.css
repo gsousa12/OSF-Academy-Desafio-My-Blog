@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.labelContainer {
+  width: 1253px;
+}
+
+.labelContainer label {
+  display: block;
+  margin: 0 0 0 38px;
+}
+
+.labelContainer input {
+  margin: 0 0 0 38px;
+}
+
+.labelContainer textarea {
+  margin: 0 0 0 38px;
+  resize: none;
+}
+
+.saveBtn {
+  width: 223px;
+  height: 51px;
+  font-size: 28px;
+  line-height: 34px;
+  margin: 56px 44px 0 38px;
+  background: #1e89eb;
+  color: #ffffff;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.285);
+  border-radius: 5px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  display: block;
+  float: right;
+}
+
+.saveBtn:hover {
+  background: #3f9bf1;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+}
