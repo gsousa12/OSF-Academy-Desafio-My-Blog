@@ -1,10 +1,8 @@
-import Header from "../../components/header/Header";
 import "./index.css";
 
 function CreateComment() {
   return (
     <>
-      <Header />
       <h1 className="h1Text">Create a Coment</h1>
 
       <section>
@@ -22,7 +20,7 @@ function CreateComment() {
           </div>
         </form>
 
-        <button className="saveBtn">Salvar</button>
+        
       </section>
     </>
   );
