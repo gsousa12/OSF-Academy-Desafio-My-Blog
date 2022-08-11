@@ -1,24 +1,2 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.labelContainer {
-  width: 1253px;
-}
-
-.labelContainer label {
-  display: block;
-  margin: 0 0 0 38px;
-}
-
-.labelContainer input {
-  margin: 0 0 0 38px;
-}
-
-.labelContainer textarea {
-  margin: 0 0 0 38px;
-  resize: none;
-}
 
 

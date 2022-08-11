@@ -16,11 +16,11 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Header name={user.name} /> {/* HEADER */}
+        <Header name={user.name} /> 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/createpost" element={<CreatePost />} />
-          <Route path="/createcomment" element={<CreateComment />} />
+          <Route path="/create-post" element={<CreatePost />} />
+          <Route path="/create-comment" element={<CreateComment />} />
           {/* <Route path="/post/:id" element={<Post />} /> */}
         </Routes>
         <Footer />

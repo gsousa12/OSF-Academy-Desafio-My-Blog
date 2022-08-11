@@ -8,15 +8,14 @@
 }
 
 .myBlogText {
-    font-size: 36px;
-    color: #FFFFFF;
-    padding: 36px 0 37px 38px;
-    cursor: pointer;
+  font-size: 36px;
+  color: #ffffff;
+  padding: 36px 0 37px 38px;
+  cursor: pointer;
 }
 
 .userText {
-    font-size: 32px;
-    color: #FFFFFF;
-    padding: 41px 49px 37px 0;
-  
+  font-size: 32px;
+  color: #ffffff;
+  padding: 41px 49px 37px 0;
 }

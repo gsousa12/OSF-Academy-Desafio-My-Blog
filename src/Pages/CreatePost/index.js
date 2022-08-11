@@ -16,17 +16,21 @@ function CreatePost() {
 
           <div className="labelContainer">
             <label htmlFor="title">Teaser</label>
-            <textarea name="teaser" id="teaser" cols="30" rows="10"></textarea>
+            <textarea name="teaser" id="teaser" cols="30" rows="10" placeholder="Type here..." ></textarea>
           </div>
 
           <div className="labelContainer">
             <label htmlFor="title">Content</label>
-            <textarea name="teaser" id="teaser" cols="30" rows="10"></textarea>
+            <textarea name="teaser" id="teaser" cols="30" rows="10"  placeholder="Type here..." ></textarea>
           </div>
         </form>
       </section>
+
+      <br />
       
       <button className="addParagraphBtn">Add Paragraph</button>
+
+
       <button className="saveBtnPost">Salvar</button>
       
     </>
