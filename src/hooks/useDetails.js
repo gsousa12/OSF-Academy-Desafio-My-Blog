@@ -1,17 +1,17 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import endPoints from "../config/endPoints";
+import endpoints from "../config/endpoints";
 
-const useDetails = () => {
-  const [details, setDetails] = useState({});
+const useDetais = (idPost) => {
+  const [details, setdetails] = useState([]);
 
   useEffect(() => {
     axios
-      .get(endPoints.obterDetalhesPost(id),)
-      .then((result) => setDetails(result.data));
+      .get(endpoints.obterDetalhesPost(idPost))
+      .then((result) => setdetails(result.data));
   }, []);
 
   return details;
 };
 
-export default useDetails;
+export default useDetais;

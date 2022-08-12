@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer";
 import Home from "./Pages/Home";
 import CreatePost from "./Pages/CreatePost";
 import CreateComment from "./Pages/CreateComment";
+import postDetails from "./Pages/PostDetails"
 
 function App() {
   const user = useUser();
@@ -21,7 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/create-post" element={<CreatePost />} />
           <Route path="/create-comment" element={<CreateComment />} />
-          {/* <Route path="/post/:id" element={<Post />} /> */}
+          <Route path="/post-details/:id" element={<postDetails/>} />
         </Routes>
         <Footer />
       </BrowserRouter>
