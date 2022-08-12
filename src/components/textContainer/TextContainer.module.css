@@ -1,24 +1,24 @@
 .contentContainer {
-    width: 100vw;
-    margin: 0 0 0 37px;
+  width: 100vw;
+  margin: 0 0 0 37px;
 }
 
 .contentContainer > hr {
 }
 
 .title {
-    font-size: 28px;
-    margin: 0 0 15px 0px;
+  font-size: 28px;
+  margin: 0 0 15px 0px;
 }
 
 .author {
-    font-size: 15px;
-    color: #018CF0;
-    margin: 0 0 0 10px;
-    padding-top: 10px;
+  font-size: 15px;
+  color: #018cf0;
+  margin: 0 0 0 10px;
+  padding-top: 10px;
 }
 
-.titleAndAuthor { 
-    display: flex;
-    flex-direction: row;
+.titleAndAuthor {
+  display: flex;
+  flex-direction: row;
 }
